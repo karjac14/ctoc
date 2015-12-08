@@ -1,0 +1,24 @@
+{
+  "name": "ctoc",
+  "version": "0.0.0",
+  "description": "Code Exercise",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass scss/main.scss css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karjac14/ctoc.git"
+  },
+  "keywords": [
+    "coalmarch",
+    "exercise"
+  ],
+  "author": "Karlo Eleuterio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karjac14/ctoc/issues"
+  },
+  "homepage": "https://github.com/karjac14/ctoc#readme"
+}
