@@ -127,7 +127,7 @@ body {
           width: 212px;
           display: inline-block; }
         body .roster .empty-person {
-          display: none; } }
+          display: hidden; } }
   body #link {
     margin: auto;
     padding-top: 9px;
