@@ -89,7 +89,7 @@ body {
     font-weight: 400;
     font-size: 2.6em; }
   body .roster {
-    margin: 4em auto; }
+    margin: 3em auto; }
     body .roster .person {
       border: 0px; }
       body .roster .person .person-name {
@@ -107,13 +107,27 @@ body {
         body .roster .person {
           width: 100%;
           display: block;
-          margin-bottom: 30px; } }
+          margin-bottom: 30px; }
+        body .roster .empty-person {
+          display: none; } }
     @media (min-width: 768px) {
+      body .roster {
+        width: 580px; }
+        body .roster .person {
+          width: 49.6%;
+          display: inline-block;
+          margin-top: 20px;
+          margin-bottom: 20px; }
+        body .roster .empty-person {
+          display: hidden; } }
+    @media (min-width: 992px) {
       body .roster {
         width: 645px; }
         body .roster .person {
           width: 212px;
-          display: inline-block; } }
+          display: inline-block; }
+        body .roster .empty-person {
+          display: none; } }
   body #link {
     margin: auto;
     padding-top: 9px;
