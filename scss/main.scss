@@ -100,11 +100,14 @@ textarea {
   box-sizing: border-box;
 }
 
+$blue: #25BFDB;
+$white: #F7FDFE;
+
 body {
   font-family: 'Open Sans', sans-serif;
-  color: #F7FDFE;
+  color: $white;
   text-align: center;
-  background-color: #25BFDB;
+  background-color: $blue;
   .page-title {
     font-weight: 400;
     font-size: 2.6em;
@@ -165,17 +168,17 @@ body {
     display: block;
     width: 180px;
     height: 40px;
-    border: 1px solid #F7FDFE;
+    border: 1px solid $white;
     border-radius: 500px;
     text-decoration: none;
     font-size: 0.8em;
     text-transform: uppercase;
     font-weight: 700;
-    color: #F7FDFE;
+    color: $white;
     margin: 2em auto;
     &:hover {
-      color: #25BFDB;
-      background-color: #F7FDFE;
+      color: $blue;
+      background-color: $white;
     }
   }
 }
